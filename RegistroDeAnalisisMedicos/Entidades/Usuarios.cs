@@ -26,16 +26,5 @@ namespace RegistroDeAnalisisMedicos.Entidades
             Telefono = string.Empty;
             Email = string.Empty;
         }
-        public Usuarios(int usuarioId, string nombre, string apellido, string sexo, int edad, DateTime fechaDeNacimiento, string telefono, string email)
-        {
-            UsuarioId = usuarioId;
-            Nombre = nombre;
-            Apellido = apellido;
-            Sexo = sexo;
-            Edad = edad;
-            FechaDeNacimiento = fechaDeNacimiento;
-            Telefono = telefono;
-            Email = email;
-        }
     }
 }
