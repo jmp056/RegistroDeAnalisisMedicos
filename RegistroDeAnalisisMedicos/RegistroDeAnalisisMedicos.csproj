@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\AnalisisBLL.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\AnalisisDetalle.cs" />
     <Compile Include="Entidades\Analisis.cs" />
@@ -90,7 +91,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\" />
     <Folder Include="UI\Consultas\" />
     <Folder Include="UI\Registros\" />
   </ItemGroup>
