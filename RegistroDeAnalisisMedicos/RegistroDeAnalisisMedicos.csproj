@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\AnalisisBLL.cs" />
+    <Compile Include="BLL\TipoAnalisisBLL.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\AnalisisDetalle.cs" />
     <Compile Include="Entidades\Analisis.cs" />
