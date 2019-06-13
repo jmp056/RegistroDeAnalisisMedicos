@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entidades\AnalisisDetalle.cs" />
+    <Compile Include="Entidades\Analisiss.cs" />
     <Compile Include="Entidades\TipoAnalisiss.cs" />
     <Compile Include="Entidades\Usuarios.cs" />
     <Compile Include="Form1.cs">
