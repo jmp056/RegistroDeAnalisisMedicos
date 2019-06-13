@@ -9,7 +9,7 @@ namespace RegistroDeAnalisisMedicos.Entidades
         public int UsuarioId { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public String Sexo { get; set; }
+        public string Sexo { get; set; }
         public int Edad { get; set; }
         public DateTime FechaDeNacimiento { get; set; }
         public string Telefono { get; set; }
