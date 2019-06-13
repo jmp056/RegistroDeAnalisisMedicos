@@ -53,9 +53,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\AnalisisDetalle.cs" />
-    <Compile Include="Entidades\Analisiss.cs" />
-    <Compile Include="Entidades\TipoAnalisiss.cs" />
+    <Compile Include="Entidades\Analisis.cs" />
+    <Compile Include="Entidades\TipoAnalisis.cs" />
     <Compile Include="Entidades\Usuarios.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -90,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
     <Folder Include="UI\Consultas\" />
     <Folder Include="UI\Registros\" />
   </ItemGroup>

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RegistroDeAnalisisMedicos.Entidades
 {
-    public class Analisiss
+    public class Analisis
     {
         [Key]
         public int AnalisisId { get; set; }
@@ -12,7 +12,7 @@ namespace RegistroDeAnalisisMedicos.Entidades
         public DateTime Fecha { get; set; }
         public virtual List<AnalisisDetalle> Detalle { get; set; }
 
-        public Analisiss()
+        public Analisis()
         {
             AnalisisId = 0;
             UsuarioId = 0;
